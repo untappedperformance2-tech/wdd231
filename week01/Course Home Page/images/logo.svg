@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="darkbloomGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e94560;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Hexagon (Dark) -->
+  <polygon points="60,30 90,15 120,30 120,60 90,75 60,60" fill="url(#darkbloomGrad)" stroke="url(#accentGrad)" stroke-width="2"/>
+
+  <!-- Inner Hexagon (Lighter) -->
+  <polygon points="67,36 90,24 113,36 113,54 90,66 67,54" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Center Diamond / Bloom -->
+  <polygon points="90,33 99,45 90,57 81,45" fill="#e94560" opacity="0.9"/>
+
+  <!-- Connecting Lines (Bridge Symbol) -->
+  <line x1="60" y1="45" x2="45" y2="45" stroke="#e94560" stroke-width="1.5" opacity="0.6"/>
+  <line x1="120" y1="45" x2="135" y2="45" stroke="#e94560" stroke-width="1.5" opacity="0.6"/>
+  <line x1="90" y1="15" x2="90" y2="5" stroke="#e94560" stroke-width="1.5" opacity="0.6"/>
+  <line x1="90" y1="75" x2="90" y2="85" stroke="#e94560" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Text: DARKBLOOM -->
+  <text x="155" y="55" font-family="'Arial Black', 'Impact', sans-serif" font-size="32" font-weight="900" fill="#1a1a2e" letter-spacing="4">DARKBLOOM</text>
+
+  <!-- Text: INDUSTRIES -->
+  <text x="155" y="80" font-family="'Arial', sans-serif" font-size="16" font-weight="600" fill="#0f3460" letter-spacing="6">INDUSTRIES</text>
+
+  <!-- Trademark Symbol -->
+  <text x="335" y="48" font-family="'Arial', sans-serif" font-size="12" fill="#e94560" opacity="0.7">™</text>
+</svg>
