@@ -63,6 +63,10 @@ nav li {
     margin: 0.5rem 0;
 }
 
+nav, nav ul, nav li, nav a, #primaryNav, #primaryNav * {
+    color: #ffffff !important;
+}
+
 nav a {
     display: block;
     padding: 0.5rem;
