@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background: #ffffff;
+    background: #ffffff !important;
     color: #0d6b2b !important;
     padding: 1rem;
 }
