@@ -1,0 +1,26 @@
+@media (min-width: 32.5rem) {
+    #hamburgerBtn {
+        display: none;
+    }
+    
+    nav {
+        max-height: none;
+        overflow: visible;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .course-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+    
+    .logo span {
+        font-size: 1.8rem;
+    }
+}
