@@ -42,7 +42,7 @@ header {
 }
 
 nav {
-    background: #1e2a1f;
+    background: hsl(125, 88%, 16%);
     margin-top: 0.5rem;
     border-radius: 8px;
     max-height: 0;
@@ -126,7 +126,7 @@ section {
     background: #e9e9e9;
     padding: 1rem;
     border-radius: 8px;
-    border-left: 6px solid #2c3e2f;
+    border-left: 6px solid #084512;
 }
 
 .course-card.completed {
