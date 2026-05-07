@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c3e2f;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#hamburgerBtn {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    background: #1e2a1f;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+nav.open {
+    max-height: 300px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+nav li {
+    margin: 0.5rem 0;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+nav a:hover,
+nav a.active {
+    background: #4a6b3c;
+}
+
+main {
+    margin: 1rem 0;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+section {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.button-group button {
+    background: #2c3e2f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background: #4a6b3c;
+}
+
+.course-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.course-card {
+    background: #e9e9e9;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 6px solid #2c3e2f;
+}
+
+.course-card.completed {
+    background: #c8e6d9;
+    border-left-color: #1b5e2a;
+}
+
+.total-credits {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+footer {
+    background: #2c3e2f;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
