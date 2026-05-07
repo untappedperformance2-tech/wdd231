@@ -158,3 +158,23 @@ footer {
     width: 30px;
     height: auto;
 }
+
+/* TARGET ALL STATES OF NAV LINKS */
+nav a:link,      /* Unvisited links */
+nav a:visited,   /* Visited links - THIS IS THE CULPRIT */
+#primaryNav a:link,
+#primaryNav a:visited {
+    color: #ffffff !important;
+    background-color: transparent; /* Optional: ensure no default background */
+}
+
+/* ENSURE ACTIVE AND HOVER STATES ALSO HAVE WHITE TEXT */
+nav a:hover,
+nav a:active,
+nav a.active,
+#primaryNav a:hover,
+#primaryNav a:active,
+#primaryNav a.active {
+    color: #ffffff !important;
+    background: #4a6b3c; /* Hover background */
+}
